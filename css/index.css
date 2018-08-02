@@ -59,12 +59,13 @@ table {
 
 .logo{transition: all 0.4s; width: 25%; }
 
-.menu{width: 68%; }
+.menu{width: 65%; }
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    margin-left: 10%;
     
 }
 .menu li {
@@ -77,10 +78,11 @@ table {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #3f51b5;
 }
 
 .menu li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    color: red;
 }
 
 .menu li.dropdown {
@@ -97,18 +99,64 @@ table {
 }
 
 .menu .dropdown-content a {
-    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.menu .dropdown-content a:hover {background-color: #f1f1f1}
+.menu .dropdown-content a:hover {background-color: #292626}
 
 .menu .dropdown:hover .dropdown-content {
     display: block;
 }
 
+.lang{width: 5%; margin-right: 5%; }
 
-.lang{width: 5%; }
+.search-container{width: 2%; margin-right: 20%;}
+
+/* ---- Body code start from here---- */
+
+.banner{background: url(../images/cbs-landing-page_banner.jpg); width: 100%; height: 615px;}
+
+.support{width: 1200px; margin: 0 auto; height: 250px; }
+
+.support-one{margin-top: 10%; padding: 2%;}
+
+.support .row .support-one {width: 33%; }
+
+.support-one i{font-size: 38px; display: block; text-align: center;}
+
+.support-one h5{text-align: center; font-weight: bold;}
+
+.support-one p{line-height: 1.6em;}
+
+.team h2{font-weight: bold;}
+.team p{width: 180%;}
+.services{width: 100%; background-color: #f6f6f6; height: 600px;}
+.serv-container{width: 1200px; margin: 0 auto; display: flex; flex-direction: row; height: 510px; padding-top: 50px; padding-bottom: 40px;}
+.services-item{width: 55%;display: flex; flex-direction: column;margin-left: 3%;}
+.service-images{width: 32%;margin-left: 32%;}
+.service-type{display: flex; flex-flow: row wrap;margin: 10% -94% 0 0;}
+.service-type h6{margin-top: -4%; margin-left: 7%;font-weight: bold;}
+.service-type p{margin-top: 10px;margin-bottom: 10px;}
+.service-name{width: 50%;}
+
+
+/* -------Footer code is from here------------- */
+
+.footer{width: 100%; height: 400px;}
+.footer-container{width: 100%; height: 300px; background-color: #E9876C;}
+.footer-contact{width: 1200px;margin: 0 auto; height: 300px; display: flex; flex-direction: row;align-items: center;}
+.footer-contact .contact{width: 33%; margin-left: 10%;}
+.footer-contact .contact i{font-size: 38px;display: block;text-align: center;margin-bottom: 20px;}
+.footer-contact .contact p{text-align: center;margin-top: 10px;}
+.footer-social-cont{width: 100%; height: 100px; background-color: #000000;}
+
+.footer-social{width: 1200px;margin: 0 auto; height: 100px; display: flex; flex-direction: row;align-items: center;}
+.copy-right{width: 50%;margin-left: 3%;margin-right: 27%;}
+.copy-right p{color: white;}
+.copy-right a{color: red;}
+.copy-right a:hover{color: white;}
+.social{width: 50%;margin-right: 16%;}
+.social a{margin-left: 5px;}
