@@ -142,6 +142,121 @@ table {
 .service-type p{margin-top: 10px;margin-bottom: 10px;}
 .service-name{width: 50%;}
 
+/* testimonial css */
+.testimonial{width: 1200px; margin: 0 auto; height: 650px; }
+
+.testimonial-column{width: 100%; height: 500px; display: flex; flex-direction: column; padding: 50px 0px;}
+
+.testimonial-column .work{width: 100%; height: 100px;clear: both;}
+
+.work h2{padding: 10px 0px; font-weight: bold;}
+
+.work-container{width: 100%; clear: both;}
+
+.work-description{width: 61%; font-size: 1.2em; margin-top: 10px; float: left;}
+
+.work-btn{float: right; margin-top: 17px;}
+
+.work-btn a{margin-right: 10px;text-decoration: none; background-color:rgb(233, 136, 108);border-color:rgb(233, 136, 108); color:rgb(255, 255, 255); padding: 15px 37px; }
+
+.work-btn a:hover{ background-color: rgb(162, 28,22); border-color: rgb(233, 136, 108); color: rgb(255, 255, 255);}
+
+.testimonial-container{display: flex;flex-direction: row; margin-top: 40px;}
+
+.testimonial-content{display: flex; flex-direction: column; width: 35%; margin-left: auto; margin-right: auto;}
+
+.testimonial-image{width: 24%;}
+
+.testimonial-image img{ width: 375px; height: 350px;}
+.image-container{position: relative;}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 375px;
+    opacity: 0;
+    transition: .5s ease-out;
+    background-color: #E9876C;
+  }
+  .image-container:hover .overlay {
+    opacity: 1;
+    
+  }
+  .image-container:hover .text {
+    top:50%;
+    transition: .5s ease-out;
+    
+  }
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .5s ease-out;
+  }
+
+  .testimonial-name{margin-top: 20px;}
+  .testimonial-name h6{float: left;}
+  .testimonial-name p{float: right; padding-right: 25px; opacity: 0.7;}
+/* testimonial css end */
+
+/* banner image two css */
+.banner-two{background: url(../images/wb.gif)50% -59.7px / cover no-repeat scroll; width: 100%; height: 380px;}
+/* banner image two css end */
+
+/* slider code css */
+.slider{width: 100%; background-color: #2F2F2F; height: auto;}
+.slider-container{width: 1200px; margin: 0 auto;}
+.font-awe{text-align: center; }
+.font-awe i{font-size: 50px;margin: 40px 0px;}
+.item p{margin: 40px 0px; color: white;text-align: center; opacity: 0.7;}
+
+.my-carousel{padding-bottom: 40px;}
+.carousel {
+    position: relative;
+    padding-bottom: 40px;
+}
+/* slider code css end */
+
+/* purchase code css */
+.purchase-content{width: 100%; background-color: #e9876c;height: auto;}
+.content-one{width: 1200px; margin: 0 auto; padding: 80px 0px; }
+.content-one a{background-color: #e9876c; border: 2px solid white; color: white; padding: 7px 35px; text-decoration: none;}
+.content-one a:hover{background: #EFEFF0; color: #2F3B6B;}
+.content-one span{text-align: center; margin-left: 25%; color: white; font-size: 1.2em;}
+/* purchase code css end */
+
+/* accordion code css */
+.accordion-one{width: 100%; background-color: #F6F6F6; height: 400px;}
+.accordion-container{width: 1200px; margin: 0 auto; display: flex; flex-direction: row;}
+.accordion-service{width: 50%; margin: 50px 0px; padding: 20px 0px;}
+.accordion-service h5{font-weight: bold; line-height: 1.6em;}
+.accordion-service p{line-height: 1.2em;}
+.accordion-service ul li{display: inline; margin-left: 10px; line-height: 1.2em;}
+.accordion-service span{display: block;}
+.accordion-content{width: 50%; margin: 50px 0px; padding: 20px 0px;}
+/* accordion code css end */
+
+/* company status css */
+.company-status{width: 1200px; margin: 0 auto; align-content: center; padding-top: 40px;padding-bottom: 40px;}
+.status-content h2{ width: 120px; margin-left: auto; margin-right: auto; top: 50%;font-weight: bold;}
+.status-content p{line-height: 1.6em; text-align: center;margin-left: 25%;margin-right: 25%;}
+/* company status css end */
+
+/* compare image code*/
+.compare-image img{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+/* compare image code end */
 
 /* -------Footer code is from here------------- */
 
@@ -156,7 +271,8 @@ table {
 .footer-social{width: 1200px;margin: 0 auto; height: 100px; display: flex; flex-direction: row;align-items: center;}
 .copy-right{width: 50%;margin-left: 3%;margin-right: 27%;}
 .copy-right p{color: white;}
-.copy-right a{color: red;}
+.copy-right a{color: red; text-decoration: none;}
 .copy-right a:hover{color: white;}
-.social{width: 50%;margin-right: 16%;}
-.social a{margin-left: 5px;}
+.social{width: 50%;float: right;}
+.social a{margin-left: 5px; text-decoration: none; float: right; padding: 10px;}
+.social i{color: white;font-size: 26px;}
